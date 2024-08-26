@@ -5,11 +5,12 @@ function App() {
   const [count, setCount] = useState(1);
 
   return (
-    <>
+    <div>
+      <p className="text-3xl font-bold underline">Hello world</p>
       <button onClick={() => setCount((count) => count + 1)}>
         count is {count}
       </button>
-    </>
+    </div>
   );
 }
 
