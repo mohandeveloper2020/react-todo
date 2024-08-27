@@ -7,5 +7,13 @@ body {
 }
 
 input {
-  @apply p-2 !important;
+  @apply p-2 bg-gray-100 border border-solid border-gray-200 rounded !important;
+}
+
+.action-icon {
+  @apply p-2 bg-gray-100 hover:bg-gray-200 cursor-pointer rounded;
+}
+
+.action-icon + .action-icon {
+  @apply ml-2;
 }
